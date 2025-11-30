@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Debate System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Debate System</h1>
 
+    <textarea id="user-input" placeholder="質問を入力してください"></textarea>
+    <button id="run-btn">3モデルに質問する</button>
+
+    <div class="responses">
+      <div class="model-box">
+        <h2>ChatGPT</h2>
+        <pre id="res-chatgpt"></pre>
+      </div>
+      <div class="model-box">
+        <h2>Gemini</h2>
+        <pre id="res-gemini"></pre>
+      </div>
+      <div class="model-box">
+        <h2>Grok</h2>
+        <pre id="res-grok"></pre>
+      </div>
+    </div>
+
+    <button id="judge-btn">合議（ChatGPT 判定）</button>
+
+    <h2>最終結論</h2>
+    <pre id="final-output"></pre>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
