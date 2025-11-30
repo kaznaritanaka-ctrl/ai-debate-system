@@ -1,1 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
 
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.responses {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.model-box {
+  width: 33%;
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
